@@ -1,0 +1,11 @@
+.resumebanner{
+ width: 1600px;
+}
+
+@media screen and (max-width: 1600px) {
+
+.resumebanner{
+ width: 100%;
+}
+
+}
