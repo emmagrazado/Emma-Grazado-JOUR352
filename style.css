@@ -12,61 +12,105 @@
 .emma{
   width: 400px;
 }
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 1600px) {
 
 .emma{
  width: 100%;
 }
 }
 
+.navbar{
+  font-family: 'Quicksand', sans-serif;
+  color: #294A6B;
+}
+
+.space{
+  padding-top: 50px;
+}
 .row{
 padding: 20px;
-
 }
+
 .bio{
   font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
+  color: #294A6B;
 
 }
+
 .contactlink{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-
-
 }
+
 .sectionheader{
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
   text-align: center;
   color: white;
-  background-color: black;
-
-
-
+  background-color: #4176AB;
 }
+
 .org{
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
-
-
+  font-weight: bold;
+  color: #4176AB;
 }
+
 .title{
   font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-
-
+  font-size: 18px;
+  font-weight: bold;
+  color: #4176AB;
 }
+
 .time{
   font-family: 'Quicksand', sans-serif;
   font-style: italic;
   font-size: 16px;
-
-
+  color: #59A2EB;
 }
+
 .summary{
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
+  color: #294A6B;
+}
 
+.list{
+  padding: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #294A6B;
+}
 
+.icon{
+  color: #294A6B;
+}
+
+.footer{
+  font-size: 12px;
+  color: #294A6B;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+  color: #59A2EB;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #294A6B;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #294A6B;
 }

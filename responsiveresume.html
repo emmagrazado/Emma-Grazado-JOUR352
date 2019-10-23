@@ -9,6 +9,7 @@
    <title>Emma Grazado</title>
    <link rel="stylesheet" type="text/css" href="style.css">
    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
    <meta name="description" content="Merrill College of Journalism, UMD">
    <meta name="author" content="Emma Grazado">
 
@@ -24,7 +25,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
-
+<div class="navbar">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
  <a class="navbar-brand" href="#">EG</a>
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,20 +37,18 @@
      <li class="nav-item active">
        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
      </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Link</a>
-     </li>
+
      <li class="nav-item dropdown">
        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Dropdown
+         About
        </a>
        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-         <a class="dropdown-item" href="#">About</a>
-         <a class="dropdown-item" href="#">Experience</a>
-         <a class="dropdown-item" href="#">Education</a>
-         <a class="dropdown-item" href="#">Skills</a>
+         <a class="dropdown-item" href="#imagelink">Emma</a>
+         <a class="dropdown-item" href="#experience">Experience</a>
+         <a class="dropdown-item" href="#education">Education</a>
+         <a class="dropdown-item" href="#skills">Skills</a>
          <div class="dropdown-divider"></div>
-         <a class="dropdown-item" href="#">Contact Me</a>
+         <a class="dropdown-item" href="#contact">Contact Me</a>
        </div>
      </li>
 
@@ -57,42 +56,29 @@
 
  </div>
 </nav>
+</div>
 <!--end navbar-->
 
 <div>
-<img src="bannerresume.png" class="resumebanner">
+<img src="bluebanner.png" class="resumebanner">
 </div>
 
 <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-          </div>
+  <div class="row">
 
           <div class="col-md-6">
-            <img src="emmag2.png" class="emma">
+            <img src="emmag2.png" class="emma" id="imagelink">
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-6" class= "space">
+            <div class="bio" > I am a journalism student studying at the University of Maryland, College Park.
+              My stregnths include social media, writing, french, and content creation.</div>
+<!--move to center-->
           </div>
-
-<div class="container">
-        <div class="row">
-
-                <div class="col-md-3">
-                </div>
-
-                <div class="col-md-6">
-                  <div class="bio"> I am a journalism student studying at the University of Maryland, College Park.
-                    My stregnths include social media, writing, and content creation.</div>
-                </div>
-
-                <div class="col-md-3">
-                </div>
         </div>
 
 
-<div class="sectionheader">Experience</div>
-
+<div class="sectionheader" id="experience">Experience</div>
 <div class="container">
         <div class="row">
 
@@ -104,60 +90,73 @@
                 </div>
 
                 <div class="col-md-4">
-                  <div class="org">Unwind Magazine</div>
-                  <div class="title">Staff Writer</div>
-                  <div class="time">September 2019-present</div>
-                  <div class="summary"> I cover current events, arts and entertainment in the College Park area.</div>
-                </div>
-
-                <div class="col-md-4">
                   <div class="org">Cece Dupraz</div>
                   <div class="title">Social Marketing Intern</div>
                   <div class="time">June 2019-present</div>
                   <div class="summary"> I work with Adobe Creative Cloud to produce content for social media pages.
                     I also organize the Pinterest page and Instagram story highlights, and write posts for the blog on the shop’s website.</div>
+                  </div>
 
+                <div class="col-md-4">
+                  <div class="org">Unwind Magazine</div>
+                  <div class="title">Staff Writer</div>
+                  <div class="time">September 2019-present</div>
+                  <div class="summary"> I cover current events, arts and entertainment in the College Park area.</div>
                 </div>
         </div>
-
-
-
-
-
-
-
-
 
 <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-          <div class="sectionheader">Education</div>
-
-                    </div>
-
-                <div class="col-md-6">
-                  <div class="sectionheader">Skills</div>
-                        <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                </div>
-        </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="sectionheader" id="education">Education </div>
+        <div class="list"
+          <dl>
+              <div class="org"> <dt> Philip Merrill College of Journalism, University of Maryland, College Park </dt> </div>
+              <div class="time"> <dd> September 2018 - May 2022 </dd> </div>
+              <div class="org"> <dt> Marblehead High School </dt> </div>
+              <div class="time"> <dd> September 2014 - June 2018 </dd> </div>
+        </dl>
+    </div>
 </div>
-<div class="sectionheader">Contact Me</div>
+
+<div class="col-md-6">
+  <div class="sectionheader" id="skills">Skills</div>
+      <div class="list"
+        <ul>
+          <li> Conversational French </li>
+          <li> Google Drive </li>
+          <li> Microsoft Office </li>
+          <li> Adobe Creative Cloud </li>
+          <li> Social media plaftforms </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sectionheader" id="contact">Contact Me</div>
 
 <div class="container">
         <div class="contactlink">
         <div class="row">
         <div class="col-md-3">
-            <a href= "mailto: emmagrazado@gmail.com">email me</a>
+            <i class="far fa-envelope fa-3x" style="color:#59A2EB"></i>
+            <p> <a href= "mailto: emmagrazado@gmail.com">email me</a> </p>
         </div>
         <div class="col-md-3">
-              <a href="https://www.linkedin.com/in/emma-grazado-82681b1888/">linkedin</a>
+          <i class="fab fa-linkedin fa-3x" style="color:#59A2EB"></i>
+          <p> <a href="https://www.linkedin.com/in/emma-grazado-82681b1888/">linkedin</a> </p>
         </div>
         <div class="col-md-3">
-                <a href="https://twitter.com/EmmaGrazado" >twitter</a>
+          <i class="fab fa-twitter fa-3x" style="color:#59A2EB"></i>
+          <p> <a href="https://twitter.com/EmmaGrazado" >twitter</a> </p>
         </div>
         <div class="col-md-3">
-                <a href="https://instagram.com/e.grazado/">instagram</a>
+          <i class="fab fa-instagram fa-3x" style="color:#59A2EB"></i>
+          <p> <a href="https://instagram.com/e.grazado/">instagram</a> </p>
         </div>
         </div>
-
+<footer>
+  <div class="footer">Emma Grazado, all rights reserved</div>
+</footer>
 </html>
