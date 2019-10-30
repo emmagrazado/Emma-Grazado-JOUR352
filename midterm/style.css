@@ -1,0 +1,120 @@
+
+#content{
+  margin: 0 auto;
+  width: 1600px;
+
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}
+h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size:28px;
+  font-style: italic;
+  text-align:center;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  text-align:center;
+  color: #fff;
+  background:#000;
+}
+h4{
+  font-family:'Quicksand', sans-serif;
+  font-size: 20px;
+
+}
+
+blockquote{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-top: 4px solid #BF310A;
+  border-bottom: 4px solid #BF310A;
+}
+
+.name{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color:#fff;
+  background: #BF310A;
+}
+.byline{
+  font-size: 20px;
+  text-align:center;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.related{
+  font-size: 20px;
+  text-align:center;
+  font-family: 'Quicksand', sans-serif;
+  color: #BF310A;
+}
+
+.banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.caption{
+  text-align:center;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.cite{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+ul{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+footer{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+a:link {
+  color: #BF310A;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BF310A;
+  text-decoration: underline;
+}
