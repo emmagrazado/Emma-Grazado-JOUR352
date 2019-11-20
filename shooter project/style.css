@@ -1,0 +1,37 @@
+.headline{
+  font-size: 3em;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.byline{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  color: #fff;
+  background-color: #000;
+}
+
+.chapterhead{
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.caption{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
