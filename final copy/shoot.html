@@ -11,8 +11,7 @@
    <meta name="author" content="Emma Grazado">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!-- Load c3.css -->
@@ -34,9 +33,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
  <a class="navbar-brand" href="#">Navbar</a>
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
@@ -44,30 +42,33 @@
 
  <div class="collapse navbar-collapse" id="navbarSupportedContent">
    <ul class="navbar-nav mr-auto">
-     <li class="nav-item active">
-       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+     <li class="nav-item">
+       <a class="nav-link" href="#chapter1">Where & When</a>
+
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#">Link</a>
+       <a class="nav-link" href="#chapter2">The Carnage</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#">Link</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Link</a>
+       <a class="nav-link" href="#chapter3">A Profile</a>
      </li>
    </ul>
 
  </div>
 </nav>
 <!--end navbar-->
+
+<center> <img class="hero-image" src="ar15.jpg" alt="ar15"> </center>
+
+
 <div class="container">
 
-    <p class="headline"> Headline goes here</p>
-
-    <p class="byline"> Byline goes here </p>
-
-    <p class="chapterhead"> Chapter Headline </p>
+    <p class="headline"> An <span class="blue"> American </span>Tragedy</p>
+    <img class="star-blue" src="bluestar.png" alt="blue star">
+    <img class="star-red" src="redstar.png" alt="red star">
+    <img class="star-blue" src="bluestar.png" alt="blue star">
+    <img class="star-red" src="redstar.png" alt="red star">
+    <p class="byline">Over 200 school shootings in two decades. What have we learned?</p>
 
     <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -75,9 +76,8 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
       officia deserunt mollit anim id est laborum. </p>
 
-    <center> <img src="marblehead.jpg" alt="marblehead" width="1000"> </center>
-
-    <p class="caption"> this is my hometown! </p>
+    <a name="chapter1"></a>
+    <p class="chapterhead"> Where & When </p>
 
     <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -85,29 +85,54 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
       officia deserunt mollit anim id est laborum. </p>
 
+    <a name="chapter2"></a>
+    <p class="chapterhead"> The Carnage </p>
+
+    <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      officia deserunt mollit anim id est laborum. </p>
+
+      <!-- Graphic container-->
+<div class="graphic-container">
+  <h2>Shootings by year</h2>
+  <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+  <div id="shootingsByYearChart"></div>
+  <em>Source: Data collected by The Washington Post</em>
+</div>
+<!-- END graphic container-->
+
+      <a name="chapter3"></a>
+      <p class="chapterhead"> A Profile </p>
+
+      <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum. </p>
+
 </div>
 
+<!-- c3 script-->
+<script>
+//CHART 1
+var chart = c3.generate({
+ bindto: '#shootingsByYearChart',
+ data: {
+   x: 'x',
+   columns: [
+     ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+     ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+   ]
+ },
+ color: {
+   pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+ }
+});
+ </script>
 
-<div class="container">
-        <div class="row">
-
-                <div class="col-md-4">
-                        <h3>Heading 1</h3>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                </div>
-
-
-                <div class="col-md-4">
-                        <h3>Heading 2</h3>
-                        <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
-                </div>
-
-                <div class="col-md-4">
-                        <h3>Heading 3</h3>
-                        <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                </div>
-        </div>
-</div>
+</body>
 
 <div class="footer">Emma Grazado, all rights reserved. </div>
 
