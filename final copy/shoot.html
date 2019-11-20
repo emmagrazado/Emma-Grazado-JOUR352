@@ -11,7 +11,7 @@
    <meta name="author" content="Emma Grazado">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!-- Load c3.css -->
@@ -35,7 +35,13 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
- <a class="navbar-brand" href="#">Navbar</a>
+ <a class="navbar-brand" href="#">
+   <div id="logo">
+   <img class="star-blue" src="star-blue.png" alt="blue star" width=15px>
+   <img class="star-red" src="star-red.png" alt="red star"  width=15px>
+   An American Tragedy
+   </div>
+ </a>
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
  </button>
@@ -64,29 +70,54 @@
 <div class="container">
 
     <p class="headline"> An <span class="blue"> American </span>Tragedy</p>
-    <img class="star-blue" src="bluestar.png" alt="blue star">
-    <img class="star-red" src="redstar.png" alt="red star">
-    <img class="star-blue" src="bluestar.png" alt="blue star">
-    <img class="star-red" src="redstar.png" alt="red star">
+    <center>
+    <img class="star-blue" src="star-blue.png" alt="blue star" width=15px>
+    <img class="star-red" src="star-red.png" alt="red star"  width=15px>
+    <img class="star-blue" src="star-blue.png" alt="blue star"  width=15px>
+    <img class="star-red" src="star-red.png" alt="red star"  width=15px>
+  </center>
+  <br>
     <p class="byline">Over 200 school shootings in two decades. What have we learned?</p>
 
-    <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    <center><p class="intro"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
       laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
       officia deserunt mollit anim id est laborum. </p>
 
+    <p class="intro"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      officia deserunt mollit anim id est laborum. </p>
+
+    <img class="stack-image" src="alaina-petty.jpg" alt="alaina">
+    <p class="caption">Caption: Insert image or video above</p>
+
+    <p class="intro"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      officia deserunt mollit anim id est laborum. </p>
+        </center>
+
+    
     <a name="chapter1"></a>
-    <p class="chapterhead"> Where & When </p>
-
-    <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-      officia deserunt mollit anim id est laborum. </p>
+    <div id="chapterhead">
+    <img class="star-blue" src="star-blue.png" alt="blue star" width=15px>
+    <img class="star-red" src="star-red.png" alt="red star"  width=15px>
+      Where & When </div>
+      <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum. </p>
 
     <a name="chapter2"></a>
-    <p class="chapterhead"> The Carnage </p>
+    <div id="chapterhead">
+    <img class="star-blue" src="star-blue.png" alt="blue star" width=15px>
+    <img class="star-red" src="star-red.png" alt="red star"  width=15px>
+    The Carnage </div>
 
     <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -104,7 +135,10 @@
 <!-- END graphic container-->
 
       <a name="chapter3"></a>
-      <p class="chapterhead"> A Profile </p>
+      <div id="chapterhead">
+      <img class="star-blue" src="star-blue.png" alt="blue star" width=15px>
+      <img class="star-red" src="star-red.png" alt="red star"  width=15px>
+      A Profile </div>
 
       <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
