@@ -1,0 +1,22 @@
+#headline{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+#sectionhead{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  background: #96cf59
+}
+#byline{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25em;
+  font-style: italic;
+  text-align: center;
+}
+#explain{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+}
