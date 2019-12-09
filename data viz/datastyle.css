@@ -29,7 +29,7 @@
 }
 #byline2{
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-style: italic;
   text-align: center;
   color: #fff;
@@ -38,12 +38,15 @@
 #explain{
   font-family: 'Quicksand', sans-serif;
   font-size: 1em;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 #outsidesource{
   font-family: 'Quicksand', sans-serif;
   font-size: 1.15em;
   font-style: italic;
   text-align: center;
+  
 }
 .solar-image{
   width:100%;
@@ -65,7 +68,8 @@ a:hover{
   font-weight:bold;
 }
 .col-md-4{
-  background:#7D94FF;
+  background:#96cf59;
+  opacity: 70%;
   border-style: solid;
   border-color: #fff;
   border-width: thick;
@@ -76,3 +80,14 @@ a:hover{
   font-size: 1em;
   text-align:center;
   color:#fff;
+}
+
+.footer{
+  font-family: 'Quicksand', sans-serif;
+  height:50px;
+  padding:10px;
+  text-align:center;
+  color: #fff;
+  background-color: #96cf59;
+  opacity: 70%;
+}
