@@ -1,3 +1,13 @@
+.navbar{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#logo{
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-size: 1.25em;
+}
+
 #headline{
   font-family: 'Quicksand', sans-serif;
   font-size: 2em;
@@ -5,10 +15,11 @@
 }
 #sectionhead{
   font-family: 'Quicksand', sans-serif;
-  font-size: 2em;
+  font-weight:bold;
+  font-size: 3em;
   text-align: center;
-  color: #fff;
-  background: #96cf59
+  color: #96cf59;
+
 }
 #byline{
   font-family: 'Quicksand', sans-serif;
@@ -33,6 +44,10 @@
   font-size: 1.15em;
   font-style: italic;
   text-align: center;
+}
+.solar-image{
+  width:100%;
+  max-width:900px;
 }
 a:link{
 color:#7D94FF;
