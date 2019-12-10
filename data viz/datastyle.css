@@ -7,10 +7,32 @@
   color: #fff;
   font-size: 1.25em;
 }
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('umd.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
 
+  @media (max-width: 768px) {
+  background: url('my-mobile-hero-image.jpg') no-repeat center top;
+}
+}
+#storytitle{
+  font-size:4em;
+  text-align:center;
+  font-family: 'Quicksand', sans-serif;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.green{
+  color: #96cf59;
+}
 #headline{
   font-family: 'Quicksand', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 #sectionhead{
@@ -41,16 +63,23 @@
   padding-left: 25px;
   padding-right: 25px;
 }
+#caption{
+  font-style:italic;
+}
 #outsidesource{
   font-family: 'Quicksand', sans-serif;
   font-size: 1.15em;
   font-style: italic;
   text-align: center;
-  
+
 }
 .solar-image{
   width:100%;
   max-width:900px;
+}
+.protest-image{
+  width:100%;
+  max-width:800px;
 }
 a:link{
 color:#7D94FF;
@@ -80,6 +109,18 @@ a:hover{
   font-size: 1em;
   text-align:center;
   color:#fff;
+}
+#pullquote{
+  text-align: center;
+  border-style: solid;
+  margin-top:25px;
+  margin-bottom:25px;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #96cf59;
+
 }
 
 .footer{
